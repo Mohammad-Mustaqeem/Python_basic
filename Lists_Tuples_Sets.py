@@ -42,3 +42,16 @@ print(max(nums))
 print(min(nums))
 print(sum(nums))
 
+# tuples 
+
+new_tuples = ('Hassan', 'Maaz', 'Noman')
+print(new_tuples)
+# new_tuples[0] = 'Amaan'
+print(new_tuples)
+
+# sets 
+newset = {2, 4, 1, 5, 5, 6, 7}
+secondset = {1, 4, 23, 28, 15}
+print(newset.intersection(secondset))
+print(newset.union(secondset))
+print(newset.difference(secondset))
